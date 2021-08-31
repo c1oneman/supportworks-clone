@@ -9,7 +9,6 @@ const SolutionViewLogo = () => {
         x="0px"
         y="0px"
         viewBox="0 0 463.7 74"
-        style="enable-background:new 0 0 463.7 74;"
         xml:space="preserve"
       >
         {/* <style type="text/css">

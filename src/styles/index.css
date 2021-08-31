@@ -90,3 +90,10 @@ input[type="text"] {
   color: #fff; /* CSS3 Proposed */
   background: #095978; /* Gecko Browsers */
 }
+
+.bg-happy-blue {
+  background-color: #0bc8e2;
+}
+.bg-hello-yellow {
+  background-color: #f8d979;
+}

@@ -25,6 +25,8 @@ const CompanyDetail = ({ logo, logoScale, imageSrc, description, color }) => {
                 Learn more
               </Link>
             </div>
+            <div className="hidden bg-hello-yellow "></div>
+            <div className="hidden  bg-happy-blue"></div>
           </div>
         </div>
       </div>

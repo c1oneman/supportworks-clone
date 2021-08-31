@@ -13,12 +13,14 @@ const HalfSection = ({ flipped, cta, ctaLink, description, image, title }) => {
         </h1>
 
         <p className="my-4 sm:my-8 text-gray-500 sm:pr-32">{description}</p>
-        <Link
-          to={ctaLink}
-          className="rounded-full bg-gray-900 text-white font-bold px-10 py-2"
-        >
-          {cta}
-        </Link>
+        {cta && (
+          <Link
+            to={ctaLink}
+            className="rounded-full bg-gray-900 text-white font-bold px-10 py-2"
+          >
+            {cta}
+          </Link>
+        )}
       </div>
       <div className="flex w-full sm:w-1/2 justify-center">
         <img alt="half-banner" src={image} />

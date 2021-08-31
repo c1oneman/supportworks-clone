@@ -16,13 +16,13 @@ const CompanyList = () => {
             <CompanyDetail
               description="Transforming America’s cluttered garages via an expanding group of franchisees dedicated to helping homeowners open up the possibilities."
               imageSrc="/assets/hello-garage.jpg"
-              color="hello-yellow"
+              color="yellow-300"
               logo="/assets/hello-garage.svg"
               logoScale="w-4/6"
             />
             <CompanyDetail
               description="Developing next-generation software that drastically improves the contractor-homeowner experience."
-              color="happy-blue"
+              color="blue-400"
               imageSrc="/assets/solutionview.jpg"
               logo="/assets/SolutionView-logo.svg"
               logoScale="w-5/6"

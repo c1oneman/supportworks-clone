@@ -19,7 +19,7 @@ const CompanyDetail = ({ logo, logoScale, imageSrc, description, color }) => {
             </div>
             <div className="flex justify-center px-6 mb-8">
               <Link
-                className={`bg-${color} align-bottom w-11/12 text-white px-2 py-1 rounded-full self-bottom font-bold bg-blue text-center`}
+                className={`bg-${color} align-bottom w-11/12 text-white px-2 py-1 rounded-full self-bottom font-bold text-center`}
                 to="/"
               >
                 Learn more

@@ -5,6 +5,7 @@ import FooterDesktop from "./components/core/FooterDesktop";
 import FooterMobile from "./components/core/FooterMobile";
 import Home from "./components/pages/Home";
 import Company from "./components/pages/Company";
+import Evergreen from "./components/pages/Evergreen";
 import ScrollToTop from "./components/core/ScrollToTop";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         <Nav />
       </header>
       <Switch>
+        <Route exact path="/evergreen">
+          <Evergreen />
+        </Route>
         <Route exact path="/company">
           <Company />
         </Route>

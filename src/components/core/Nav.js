@@ -110,9 +110,9 @@ const Nav = () => {
                 aboutDropdownOpen ? "hidden" : "block"
               }`}
             >
-              <Link to="/">Company</Link>
+              <Link to="/company">Company</Link>
               <Link to="/">People</Link>
-              <Link to="/">Evergreen</Link>
+              <Link to="/evergreen">Evergreen</Link>
             </div>
             <Link to="/">Purpose</Link>
             <Link to="/">Careers</Link>

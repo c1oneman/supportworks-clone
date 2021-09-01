@@ -1,7 +1,7 @@
 const HeroText = ({ h1, p }) => {
   return (
     <div className="max-w-6xl sm:px-6 lg:px-8 mx-auto">
-      <div class="py-14 sm:py-36 px-5 sm:px-0 text-center">
+      <div class="py-14 sm:pt-36 px-5 sm:px-0 text-center">
         <h1 class="text-2xl w-full mb-12 tracking-tight font-bold text-gray-900 sm:text-2xl md:text-4xl">
           <span class="block xl:inline">{h1}</span>
         </h1>

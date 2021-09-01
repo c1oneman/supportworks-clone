@@ -33,7 +33,7 @@ const Nav = () => {
             <div className="mx-5">
               <button
                 onMouseEnter={(e) => setAboutDropdownOpen(true)}
-                className="text-gray-700 px-3 py-2 font-bold hover:text-gray-400"
+                className="text-gray-700 px-3 py-2 font-bold hover:text-gray-400 bg-green-200"
               >
                 About ▾
               </button>
@@ -44,7 +44,7 @@ const Nav = () => {
                   onMouseLeave={(e) => setAboutDropdownOpen(false)}
                 >
                   <Link
-                    class="block px-4 py-2 text-md text-gray-700 hover:text-gray-500"
+                    class="block px-4 py-2 text-md text-gray-700 hover:text-gray-500 bg-green-200"
                     to="/company"
                   >
                     Company
@@ -56,7 +56,7 @@ const Nav = () => {
                     People
                   </Link>
                   <Link
-                    class="block px-4 py-2 text-md text-gray-700 hover:text-gray-500"
+                    class="block px-4 py-2 text-md text-gray-700 hover:text-gray-500 bg-green-200"
                     to="/evergreen"
                   >
                     Evergreen

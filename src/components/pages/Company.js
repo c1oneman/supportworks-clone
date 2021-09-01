@@ -2,6 +2,7 @@ import HeroText from "../core/HeroText";
 import HeroTextCentered from "../core/HeroTextCentered";
 import HalfSectionAboutCompany from "../sections/HalfSectionAboutCompany";
 import HalfSection from "../sections/HalfSection";
+import CompanyHistory from "../sections/CompanyHistory";
 const Company = () => {
   return (
     <div className="w-full mt-20">
@@ -10,6 +11,8 @@ const Company = () => {
         flipped={true}
         image={"/assets/sw-about-Whatwedo2.png"}
       />
+      <HeroTextCentered h1={"How We Got Here"} />
+      <CompanyHistory />
       <HeroTextCentered
         h1={"Who We Serve"}
         p={

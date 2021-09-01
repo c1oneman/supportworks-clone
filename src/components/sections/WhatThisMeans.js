@@ -12,7 +12,7 @@ const WhatThisMeans = () => {
               src="/assets/sw-evergreen-Employeetree.png"
             ></img>
             <h1 className="font-bold mt-8 text-2xl">
-              What this means for our employess
+              What this means for our employees
             </h1>
             <p className="text-gray-600 text-lg my-4">
               Supportworks has the culture, financial strength and long-term

@@ -68,9 +68,14 @@ const FooterDesktop = () => {
       <div className="max-w-6xl mx-auto py-4 flex text-gray-500 align-middle text-sm items-center">
         <div className="flex flex-row w-1/2">
           <p>Copy of Supportworks, Inc Website.</p>
-          <Link to="/tos" className="mx-4">
-            Privacy Policy
-          </Link>
+          <a
+            href="https://github.com/c1oneman/supportworks-clone"
+            className="mx-4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Project on Github
+          </a>
           <Link to="/contact" className="text-regal-blue font-bold mx-4">
             Contact Us
           </Link>

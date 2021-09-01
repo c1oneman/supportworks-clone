@@ -58,13 +58,17 @@ const FooterMobile = () => {
       {/* Lower footer section */}
       <div className="p-8 flex text-gray-500 align-middle items-center">
         <div className="flex flex-col w-2/3 border-t-2 pt-8">
-          <Link to="/tos" className="mx-4">
-            Privacy Policy
-          </Link>
+          <a
+            href="https://github.com/c1oneman/supportworks-clone"
+            className="mx-4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Project on Github
+          </a>
           <Link to="/contact" className="text-regal-blue font-bold mx-4">
             Contact Us
           </Link>
-
           <a
             href="https://loneman.dev/"
             target="_blank"

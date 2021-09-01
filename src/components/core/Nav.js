@@ -148,11 +148,6 @@ const Nav = () => {
               Partner with us
             </Link>
           </div>
-          <div class="mobile__cta">
-            <a href="/contact.html" class="mobile__cta--btn">
-              Contact Us
-            </a>
-          </div>
         </div>
       </div>
     </div>

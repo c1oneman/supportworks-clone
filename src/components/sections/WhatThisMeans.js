@@ -1,11 +1,11 @@
 const WhatThisMeans = () => {
   return (
     <div
-      className={`w-full sm:max-w-6xl mx-8 sm:px-6 lg:px-8 sm:mx-auto flex flex-wrap mt-16`}
+      className={`sm:max-w-6xl mx-8 sm:px-6 lg:px-8 sm:mx-auto flex flex-wrap mt-16`}
     >
       <div className="flex flex-wrap">
         <div className="w-full sm:w-1/2 flex flex-col sm:pb-48">
-          <div className="flex flex-col mx-4 sm:mx-24">
+          <div className="flex flex-col sm:mx-24">
             <img
               className="w-1/2"
               alt="evergreen icon"
@@ -23,7 +23,7 @@ const WhatThisMeans = () => {
           </div>
         </div>
         <div className="w-full sm:w-1/2 sm:pt-48 mt-4">
-          <div className="flex flex-col mx-4 sm:mx-24">
+          <div className="flex flex-col sm:mx-24">
             <img
               className="w-1/2"
               alt="evergreen icon 2"

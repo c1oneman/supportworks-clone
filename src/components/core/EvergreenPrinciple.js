@@ -1,6 +1,6 @@
 const EvergreenPrinciple = ({ h1, p, id }) => {
   return (
-    <div className="max-w-6xl sm:px-6 lg:px-8 mx-auto mb-12 sm:mb-24">
+    <div className="max-w-6xl sm:px-6 lg:px-8 mb-12 sm:mb-24 mx-4">
       <div class="w-full flex">
         <div className="w-1/5 flex items-start justify-center">
           <div className="w-12 h-12 rounded-full bg-green-800 text-white flex items-center justify-center">

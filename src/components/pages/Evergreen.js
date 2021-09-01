@@ -6,7 +6,7 @@ const Evergreen = () => {
     <div className="w-full mt-20">
       <HeroText h1={"Certified Evergreen"} />
       <div className="flex sm:px-6 lg:px-8 mx-auto bg-regal-blue text-white justify-center items-center">
-        <div className="max-w-6xl flex flex-row flex-wrap py-14 sm:py-36 items-center justify-center">
+        <div className="max-w-6xl flex flex-row flex-wrap py-14 sm:py-36 items-center justify-center text-center">
           Pretend a video is here. I did not have the time to make a video
           player.
         </div>

@@ -110,13 +110,43 @@ const Nav = () => {
                 aboutDropdownOpen ? "hidden" : "block"
               }`}
             >
-              <Link to="/company">Company</Link>
-              <Link to="/">People</Link>
-              <Link to="/evergreen">Evergreen</Link>
+              <Link
+                to="/company"
+                onClick={(e) => setMobileDropdownOpen(!mobileDropdownOpen)}
+              >
+                Company
+              </Link>
+              <Link
+                to="/"
+                onClick={(e) => setMobileDropdownOpen(!mobileDropdownOpen)}
+              >
+                People
+              </Link>
+              <Link
+                to="/evergreen"
+                onClick={(e) => setMobileDropdownOpen(!mobileDropdownOpen)}
+              >
+                Evergreen
+              </Link>
             </div>
-            <Link to="/">Purpose</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Partner with us</Link>
+            <Link
+              to="/"
+              onClick={(e) => setMobileDropdownOpen(!mobileDropdownOpen)}
+            >
+              Purpose
+            </Link>
+            <Link
+              to="/"
+              onClick={(e) => setMobileDropdownOpen(!mobileDropdownOpen)}
+            >
+              Careers
+            </Link>
+            <Link
+              to="/"
+              onClick={(e) => setMobileDropdownOpen(!mobileDropdownOpen)}
+            >
+              Partner with us
+            </Link>
           </div>
           <div class="mobile__cta">
             <a href="/contact.html" class="mobile__cta--btn">

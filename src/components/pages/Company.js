@@ -4,7 +4,7 @@ import HalfSectionAboutCompany from "../sections/HalfSectionAboutCompany";
 import HalfSection from "../sections/HalfSection";
 const Company = () => {
   return (
-    <div className="w-full border-b mt-20">
+    <div className="w-full mt-20">
       <HeroText h1={"Radical Thinking. Since 1975"} />
       <HalfSectionAboutCompany
         flipped={true}
